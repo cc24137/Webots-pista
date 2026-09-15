@@ -7,8 +7,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/project
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.3615161353401261 -0.3651587060658364 0.8578841432693951 4.5615409379705465
-  position -0.3721324397229212 0.029118652119668284 0.6097317248955437
+  orientation -0.2500733643436185 -0.19427540250204006 0.9485359141479748 4.328721329776856
+  position 0.17992384799149774 1.4472424469668212 0.8752580052977375
 }
 TexturedBackground {
 }
@@ -20,7 +20,7 @@ RectangleArena {
   floorAppearance PBRAppearance {
     baseColorMap ImageTexture {
       url [
-        "https://github.com/cc24137/Webots-pista/blob/main/mapa.png?raw=true"
+        "https://raw.githubusercontent.com/cc24137/Webots-pista/refs/heads/main/mapa.png"
       ]
     }
     roughness 1
@@ -28,8 +28,8 @@ RectangleArena {
   }
 }
 Robot {
-  translation -0.530004 -0.53 6.85578e-05
-  rotation 0 0 -1 -0.2618053071795865
+  translation -0.51589 -0.145552 6.85578e-05
+  rotation 0 0 1 -0.523595307179586
   children [
     Pose {
       children [
